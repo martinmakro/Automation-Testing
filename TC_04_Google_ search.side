@@ -1,0 +1,107 @@
+{
+  "id": "12adf601-c227-4813-9485-de640c992514",
+  "version": "2.0",
+  "name": "google search",
+  "url": "https://www.linkedin.com",
+  "tests": [{
+    "id": "eee7f6b9-8d76-4bad-a173-4a374e99fa25",
+    "name": "Untitled",
+    "commands": [{
+      "id": "39a19f0d-256b-4c5a-8e3c-0f95a51e9881",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.sk",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f740fa0e-ca42-4007-8319-4a9498cf9200",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1174c91b-d9ad-4237-8851-987ab0d63660",
+      "comment": "",
+      "command": "click",
+      "target": "hypoteka pre mladých poštová banka",
+      "targets": [],
+      "value": "hypoteka pre mladých"
+    }, {
+      "id": "cc981246-1482-4f17-932a-168f5e18e372",
+      "comment": "",
+      "command": "//click",
+      "target": "name=btnK",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e2e96a6-c050-4b17-a6c0-58eff57b0c84",
+      "comment": "",
+      "command": "//sendKeys",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c64253cc-3e4d-4500-b1ba-610b2bb814f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=g:nth-child(3) LC20b",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "631c26d6-985d-438f-8180-213d04a16d4c",
+    "name": "TC03_Facebook",
+    "commands": [{
+      "id": "c29375b9-6cc0-408b-a2f4-2d7c14ee73f2",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fa148143-5490-411e-90dd-5228325e7e59",
+      "comment": "",
+      "command": "open",
+      "target": "https://sk-sk.facebook.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b807cdaf-7430-4a7b-9278-120157c57881",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.fb_logo",
+      "targets": [
+        ["css=.fb_logo", "css:finder"],
+        ["xpath=//img[@alt='Facebook']", "xpath:img"],
+        ["xpath=//div[@id='content']/div/div/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d302cfd3-c4ce-4a5b-9a46-6efaf6374816",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=email",
+      "targets": [
+        ["id=email", "id"],
+        ["name=email", "name"],
+        ["css=#email", "css:finder"],
+        ["xpath=//input[@id='email']", "xpath:attributes"],
+        ["xpath=//form[@id='u_0_2_DE']/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "E-mail alebo telefonne číslo"
+    }]
+  }],
+  "suites": [{
+    "id": "f7672c57-b32b-4d70-8d7e-e3ea71a2d006",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["eee7f6b9-8d76-4bad-a173-4a374e99fa25"]
+  }],
+  "urls": ["https://www.google.sk/", "https://www.facebook.com/", "https://www.twitter.com/", "https://www.linkedin.com/"],
+  "plugins": []
+}

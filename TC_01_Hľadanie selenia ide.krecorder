@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<title>TC_01_Hľadanie selenia ide</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3" data-tags="TC_01_Hľadanie_Selenia iDE">Untitled Test Case</td></tr>
+</thead>
+<tbody>
+<tr><td>open</td><td>https://www.google.sk/<datalist><option>https://www.google.sk/</option></datalist></td><td></td></tr>
+<tr><td>type</td><td>name=q<datalist><option>name=q</option><option>xpath=//input[@name='q']</option><option>xpath=//input</option><option>css=input[name="q"]</option></datalist></td><td>selenium ide</td></tr>
+<tr><td>sendKeys</td><td>name=q<datalist><option>name=q</option><option>xpath=//input[@name='q']</option><option>xpath=//input</option><option>css=input[name="q"]</option></datalist></td><td>${KEY_ENTER}</td></tr>
+<tr><td>click</td><td>xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3<datalist><option>xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Výsledky vyhľadávania'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='Podobné vyhľadávania'])[1]/following::h3[1]</option><option>xpath=(.//*[normalize-space(text()) and normalize-space(.)='› seleniu...'])[1]/preceding::h3[1]</option><option>xpath=//*/text()[normalize-space(.)='Selenium IDE · Open source record and playback test ...']/parent::*</option><option>xpath=//a/h3</option><option>css=h3.LC20lb.MBeuO.DKV0Md</option></datalist></td><td></td></tr>
+<tr><td>open</td><td>https://www.selenium.dev/selenium-ide/<datalist><option>https://www.selenium.dev/selenium-ide/</option></datalist></td><td></td></tr>
+</tbody></table>
+</body>
+</html>

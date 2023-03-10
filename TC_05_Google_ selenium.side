@@ -1,0 +1,210 @@
+{
+  "id": "4e321ec7-35c9-467f-b095-e3de61aac326",
+  "version": "2.0",
+  "name": "google selenium",
+  "url": "https://www.google.sk",
+  "tests": [{
+    "id": "98074e33-5cfb-4403-a14f-b3940614d9ba",
+    "name": "TC01_Stiahnutie SeleniumIDE",
+    "commands": [{
+      "id": "e076ea78-6b60-4f37-a438-7bd3d5fcfd51",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b31b9d92-e597-4906-acb5-fb970ac2f8ac",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x801",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a82e280c-a2f6-479d-a07e-e413132c0998",
+      "comment": "",
+      "command": "click",
+      "target": "css=#W0wltc > .QS5gu",
+      "targets": [
+        ["css=#W0wltc > .QS5gu", "css:finder"],
+        ["xpath=//button[@id='W0wltc']/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/button/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c44e6da1-b782-4044-a617-a8e2b3255e76",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "528ac285-c2da-4484-8e8d-a9aae77494c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=center:nth-child(1) > .gNO89b",
+      "targets": [
+        ["css=center:nth-child(1) > .gNO89b", "css:finder"],
+        ["xpath=(//input[@name='btnK'])[2]", "xpath:attributes"],
+        ["xpath=//div[4]/center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "42f75a61-d063-4455-84da-31bbca22d1d2",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d6577c1-cd19-4776-983b-dd27c791b2b3",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "703e322a-7cba-4bc8-86ab-e9f519a5e905",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "selenium ide"
+    }, {
+      "id": "ec2213c8-d0af-447c-92c5-ab7710e98122",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "07e8b173-55fd-4211-b653-1c8266ed542d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.g > div > div > .kvH3mc .LC20lb",
+      "targets": [
+        ["css=.g > div > div > .kvH3mc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE · Open source record and playback test ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "258f1bdc-ab6e-4304-b60e-b3feff1eb69e",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.g > div > div > .kvH3mc .LC20lb",
+      "targets": [
+        ["css=.g > div > div > .kvH3mc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE · Open source record and playback test ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fbd2d32-fb88-47bb-b215-e1e18bf361ee",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.g:nth-child(1) > div:nth-child(1) .kvH3mc:nth-child(1) .fl:nth-child(2) > span:nth-child(1)",
+      "targets": [
+        ["css=.g:nth-child(1) > div:nth-child(1) .kvH3mc:nth-child(1) .fl:nth-child(2) > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Preložiť túto stránku')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d317cfb4-c8cd-4ee5-85eb-2b96654a8b10",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.g:nth-child(1) > div:nth-child(1) .kvH3mc:nth-child(1) .fl:nth-child(2) > span:nth-child(1)",
+      "targets": [
+        ["css=.g:nth-child(1) > div:nth-child(1) .kvH3mc:nth-child(1) .fl:nth-child(2) > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/div/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div/div/div/div/div/div/div/div/div/div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Preložiť túto stránku')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0dcb2750-9765-434a-9df1-3522406202ae",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.Tg7LZd",
+      "targets": [
+        ["css=.Tg7LZd", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form[@id='tsf']/div/div/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28b7b73d-3d1d-4806-b156-a7acae7271c4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.g > div > div > .kvH3mc .LC20lb",
+      "targets": [
+        ["css=.g > div > div > .kvH3mc .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Selenium IDE · Open source record and playback test ...')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f7b0bc0-a301-482f-a769-c8ee1fefdd32",
+      "comment": "",
+      "command": "click",
+      "target": "css=.section:nth-child(2) .pluginWrapper:nth-child(1) > .button",
+      "targets": [
+        ["css=.section:nth-child(2) .pluginWrapper:nth-child(1) > .button", "css:finder"],
+        ["xpath=//a[contains(text(),'Chrome Download')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://chrome.google.com/webstore/detail/selenium-ide/mooikfkahbdckldjjndioackbalphokd')]", "xpath:href"],
+        ["xpath=//div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8167",
+      "windowTimeout": 2000
+    }, {
+      "id": "7e30c080-bb42-4458-9601-03a381abb301",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8167}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "afd3ba24-314b-4138-b97e-b2b8b7070bf8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["98074e33-5cfb-4403-a14f-b3940614d9ba"]
+  }],
+  "urls": ["https://www.google.sk/"],
+  "plugins": []
+}
